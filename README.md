@@ -23,6 +23,7 @@ You can install these dependencies using the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 🚀 Usage
 1. Scrape Data from Flippa
@@ -31,7 +32,7 @@ Run the following command to scrape SaaS listings data from Flippa:
 ```bash
 python flippa_data.py
 This will generate the following files:
-
+```
 flippa_investment_data.json: Raw data in JSON format
 
 flippa_investment_data.csv: Raw data in CSV format
@@ -41,6 +42,7 @@ After scraping the data, run the analysis script:
 
 ```bash
 python flippa_analyze.py
+```
 This script will:
 
 Clean the data
